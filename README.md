@@ -20,3 +20,23 @@ First it is necessary to install the required paackages, such as pandas, streaml
 pip install streamlit, pandas, plotly
 
 ```
+
+Now clone this repository:
+```
+git clone anyblockanalytics/thegraph-curator-phase3 
+```
+
+After that, go into the directory of the cloned repository and run streamlit in the terminal:
+
+
+```
+streamlit run main.py
+
+```
+
+
+## Contributions
+
+We are open for contributions and suggestions for improving this dashboard. It is still WIP.
+All GraphQL queries can be found in queries.py. This is build using streamlit with selfcontaining
+subpages.
